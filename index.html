@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my website</title>
+    
+    <style>
+            body {
+                background-image:url("https://78.media.tumblr.com/8a82dd5be75685670577cd07c6096c57/tumblr_pee948wxzf1wolizlo2_1280.jpg");
+                background-size: cover
+                background: rgb(000, 000, 000);
+                color: rgb(0, 0 , 250);
+                padding: 10px;
+                font-family: calibri;
+            }
+            header {
+                font-size: 1.9em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: #fff;
+                margin: 0 auto;
+                margin-bottom: 40px;
+                display: flex;
+                padding: 1px;
+                border: 3px dotted #0000ff;
+                border-radius: 15px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #0000ff;
+                text-shadow: 2px 1px 2px #ff00ff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: #fff;
+                display: flex;
+                padding: 1px;
+                border:3px dotted #0000ff;
+                border-radius: 20px ;
+                font-weight: bold;
+
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 160px;
+                border: 2px solid #fff;
+                border-radius: 9px;
+                
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+</head>
+<body>
+    <div id="all-contents">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a>
+            </ul>
+        </nav>
+        
+        <main>
+            <div class="sidebar">
+               <img src="https://78.media.tumblr.com/3cf2a68b85ea9c889ce501760f196199/tumblr_otgcs2BkvM1vv7oloo1_500.jpg" height="150" width="150">
+            </div>
+            
+            
+            <div class="content">
+                <header></header>
+                <p>Student at Mandeville High</p>
+                
+                <section class="interests">
+                    <header>INTERESTS</header>
+                    <ul>
+                        <li>video games</li>
+                        <li>marine biology</li>
+                        <li>anime</li>
+                    </ul>
+                </section>
+            </div>
+            
+        </main>
+    </div>
+</body>
+
+</html>
